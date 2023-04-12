@@ -29,4 +29,12 @@ public:
 	void tampilmk();
 };
 
+void Matakuliah::inputmk() {
+	cout << "\n Masukkan kode mata kuliah : ";
+	cin >> kode;
+	cout << "Masukan Nama Matakuliah : ";
+	cin >> namamk;
+	cout << "Masukan Sks Mata Kuliah : ";
+	cin >> sks;
+} 
 
