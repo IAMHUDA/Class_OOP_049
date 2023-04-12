@@ -47,5 +47,11 @@ void Matakuliah::tampilmk() {
 int main() {
 	Mahasiswa mhs;
 	Matakuliah mk;
+
+	mhs.inputdata();
+	mhs.tampildata();
+
+	mk.inputmk();
+	mk.tampilmk();
 }
 
