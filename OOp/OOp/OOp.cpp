@@ -26,7 +26,7 @@ private :
 	int sks;
 public:
 	void inputmk();
-	
+	void tampilmk();
 };
 
 
